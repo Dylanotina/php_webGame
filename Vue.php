@@ -14,7 +14,7 @@ class Vue
 
       <h1>Bienvenue sur Bridges!</h1>
     </br>
-    <h2>Avant de jouer,veuillez vous connecter.</h2> 
+    <h2>Avant de jouer,veuillez vous connecter.</h2>
     <br/>
     <br/>
     <form method="post" action="index.php">
@@ -37,6 +37,40 @@ class Vue
     <html>
     <body>
       <p>Tu es connecté</p>
+      <table>
+        <thead>
+          <tr>
+            <td> </td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>6</td>
+          </tr>
+        </tbody>
+      </table>
       <a href="index.php">Déconnexion</a>
 <?php
   }
